@@ -1,7 +1,17 @@
 # az1
-aztest
+aztest - just testing
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Started with aztest - a test of course
+Adding Directory Services C# project files
+
+Historical data
+A the end of 2012 during an extremely large infrastructure project I was involved with, a sudden need for large bulk Active Directory tasks arose. Timelines imperatives dictated that we find an immediate solution to the automation of bulk addition of hundreds of subnets and sites to AD sites and services, the subsequent, potential, bulk modification and/or deletion of the objects themselves from AD and or of only some of their attributes. And there was a constant need for reporting. 
+
+This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the unknown world of MS DS System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a fairly robust  manner. 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+I have limited time so I'll add some notes I j
 
 Branching...
 
