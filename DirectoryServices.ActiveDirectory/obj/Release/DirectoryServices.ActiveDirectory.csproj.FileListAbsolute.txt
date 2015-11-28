@@ -1,0 +1,10 @@
+C:\code\C#\DirectoryServices.ActiveDirectory\bin\release\DS.AD.exe.manifest
+C:\code\C#\DirectoryServices.ActiveDirectory\bin\release\DS.AD.application
+C:\code\C#\DirectoryServices.ActiveDirectory\bin\release\DS.AD.exe
+C:\code\C#\DirectoryServices.ActiveDirectory\bin\release\DS.AD.pdb
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Release\ResolveAssemblyReference.cache
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Release\DS.AD.TrustInfo.xml
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Release\DS.AD.exe.manifest
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Release\DS.AD.application
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Release\DS.AD.exe
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Release\DS.AD.pdb

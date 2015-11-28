@@ -1,0 +1,1258 @@
+	Bridge all site links True
+	Ignore replication schedulefor this inter-site transport? False
+
+Site links:
+
+	Sitelink "ABXDTB-DC"
+	Sitelink "ADLNJS-DC"
+	Sitelink "ADLSYDLINK"
+	Sitelink "AMR343-DC"
+	Sitelink "ARMDTB-DC"
+	Sitelink "ASPDTB-DC"
+	Sitelink "AVVHG4-DC"
+	Sitelink "AYQDTB-DC"
+	Sitelink "BDBDTB-DC"
+	Sitelink "BKQDTB-DC"
+	Sitelink "BMEDTB-DC"
+	Sitelink "BNEASA-DC"
+	Sitelink "BNEBOW-DC"
+	Sitelink "BNECCA-DC"
+	Sitelink "BNESNP-DC"
+	Sitelink "CBRDTB-DC"
+	Sitelink "CBRHGR-DC"
+	Sitelink "CBRHQB-DC"
+	Sitelink "CBRQDS-DC"
+	Sitelink "CFSDTB-DC"
+	Sitelink "CNSAPT-DC"
+	Sitelink "CTLDTB-DC"
+	Sitelink "DBODTB-DC"
+	Sitelink "DEFAULTIPSITELINK"
+	Sitelink "DPODTB-DC"
+	Sitelink "DRWAMC-DC"
+	Sitelink "DRWDTB-DC"
+	Sitelink "DRWHQB-DC"
+	Sitelink "EMDDTB-DC"
+	Sitelink "GLTDTB-DC"
+	Sitelink "GOVDTB-DC"
+	Sitelink "GOVTCG-DC"
+	Sitelink "HBACCA-DC"
+	Sitelink "HBADTB-DC"
+	Sitelink "HIDDTB-DC"
+	Sitelink "HTIDTB-DC"
+	Sitelink "HVBDTB-DC"
+	Sitelink "ISADTB-DC"
+	Sitelink "KGIDTB-DC"
+	Sitelink "KTADTB-DC"
+	Sitelink "LEADTB-DC"
+	Sitelink "LREDTB-DC"
+	Sitelink "LSTDTB-DC"
+	Sitelink "MELADC-DC"
+	Sitelink "MELBOM-DC"
+	Sitelink "MELCCC-DC"
+	Sitelink "MELDAP-DC"
+	Sitelink "MELECC-DC"
+	Sitelink "MELHQ2-DC"
+	Sitelink "MELMCC-DC"
+	Sitelink "MELRES-DC"
+	Sitelink "MELSIR-DC"
+	Sitelink "MHUDTB-DC"
+	Sitelink "MKYDTB-DC"
+	Sitelink "MQLDTB-DC"
+	Sitelink "MRZDTB-DC"
+	Sitelink "NTLDTB-DC"
+	Sitelink "PBODTB-DC"
+	Sitelink "PERHCH-DC"
+	Sitelink "PERHQB-DC"
+	Sitelink "PERSYDLINK"
+	Sitelink "PHEDTB-DC"
+	Sitelink "PLODTB-DC"
+	Sitelink "PQQDTB-DC"
+	Sitelink "RMADTB-DC"
+	Sitelink "ROKDTB-DC"
+	Sitelink "SYDAC1-DC"
+	Sitelink "SYDAC2-DC"
+	Sitelink "SYDARG-DC"
+	Sitelink "SYDASC-DC"
+	Sitelink "SYDCTR-DC"
+	Sitelink "SYDDT2-DC"
+	Sitelink "SYDFT2-DC"
+	Sitelink "SYDGKN-DC"
+	Sitelink "SYDHCH-DC"
+	Sitelink "SYDHDC-DC"
+	Sitelink "SYDQDS-DC"
+	Sitelink "SYDRAF-DC"
+	Sitelink "TMWDTB-DC"
+	Sitelink "TMWEAA-DC"
+	Sitelink "TSVDTB-DC"
+	Sitelink "WEIDTB-DC"
+	Sitelink "WGADTB-DC"
+	Sitelink "ZNEDTB-DC"
+
+Site link bridges:
+
+
+Site "SYDQCX"
+	contains the following domain(s):
+		azeta.com
+	contains the following server(s):
+		azetadc1.azeta.com
+		azetasvr01.azeta.com
+	contains the following subnet(s):
+		Subnet: 10.134.18.128/25 location: AUS/NSW/SYD/VCS
+		Subnet: 10.134.54.0/24 location: AUS/NSW/SYD/NDC
+		Subnet: 10.152.101.0/24 location: AUS/NSW/SYD/QCC
+		Subnet: 10.152.12.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.152.13.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.152.14.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.152.165.0/24 location: AUS/NSW/SYD/QCE
+		Subnet: 10.152.36.0/24 location: AUS/NSW/SYD/QCB
+		Subnet: 10.152.37.0/24 location: AUS/NSW/SYD/QCB
+		Subnet: 10.152.39.0/24 location: AUS/NSW/SYD/QCB
+		Subnet: 10.152.40.0/24 location: AUS/NSW/SYD/QCB
+		Subnet: 10.153.80.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.153.85.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.153.86.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.153.87.0/24 location: AUS/NSW/SYD/QCA
+		Subnet: 10.161.160.0/24 location: AUS/NSW/SYD/QCF
+		Subnet: 10.162.18.0/24 location: AUS/NSW/SYD/QCB
+		Subnet: 172.23.0.0/20 location: AUSGRID
+		Subnet: 172.30.0.0/24 location: 
+
+InterSiteTopologyGenerator is azetasvr01.azeta.com
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+		ADLAPT
+		SYD-DC
+		BNEAPT
+
+Site "BNEAPT"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+		Subnet: 192.168.0.0/24 location: AUS/NSW/SYD/VCS
+		Subnet: 10.158.197.0/24 location: AUS/NSW/BNE/DTB
+		Subnet: 10.158.196.0/24 location: AUS/NSW/BNE/DTB
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+		SYD-DC
+		SYDQCX
+
+Site "PERAPT"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYD-DC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+		ADLAPT
+		SYDQCX
+		BNEAPT
+
+Site "TEST-SITE"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ADLAPT"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+		SYD-DC
+		SYDQCX
+
+Site "AVVHG4"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CNSAPT"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ABXDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ADLNJS"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "AMR343"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ARMDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ASPDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "AYQDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BDBDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BKQDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BMEDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BNEASA"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BNEBOW"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BNECCA"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "BNESNP"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CBRDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CBRHGR"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CBRHQB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CBRQDS"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CFSDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "CTLDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "DBODTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "DPODTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "DRWAMC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "DRWDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "DRWHQB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "EMDDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "GLTDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "GOVDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "GOVTCG"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "HBACCA"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "HBADTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "HIDDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "HTIDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "HVBDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ISADTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "KGIDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "KTADTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "LEADTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "LREDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "LSTDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELADC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELBOM"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELCCC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELDAP"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELECC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELHQ2"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELMCC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELRES"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MELSIR"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MHUDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MKYDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MQLDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "MRZDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "NTLDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "PBODTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "PERHCH"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "PERHQB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "PHEDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "PLODTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "PQQDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "RMADTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ROKDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDAC1"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDAC2"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDARG"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDASC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDCTR"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDDT2"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDFT2"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDGKN"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDHCH"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDHDC"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDQDS"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "SYDRAF"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "TMWDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "TMWEAA"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "TSVDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "WEIDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "WGADTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:
+
+Site "ZNEDTB"
+	contains the following domain(s):
+	contains the following server(s):
+	contains the following subnet(s):
+
+InterSiteTopologyGenerator is 
+
+Bridgehead servers:
+
+Preferred Bridgehead servers:
+
+Adjacent sites are:

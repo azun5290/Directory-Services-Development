@@ -1,0 +1,1 @@
+for /f "tokens=1,2 delims=," %a in (stuffCopy.csv) do AD_shell_v1.13.exe modifySubnet %a %b

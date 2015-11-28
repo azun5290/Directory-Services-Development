@@ -1,0 +1,9 @@
+
+Only subnets in CSV
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug>for /f "tokens=1 delims=" %a in (subnets.csv) do DS.AD.exe createsubnet %a AUS\NSW\SYD\VCS SYDQCX
+
+
+
+All arguments passed from CSV
+for /f "tokens=1,2,3,4 delims=," %a in (AD_Subnets.csv) do DS.AD.exe createsubnet %a %b %c %d
+

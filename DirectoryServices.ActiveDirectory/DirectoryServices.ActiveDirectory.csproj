@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41A4F73A-0515-4303-A2E4-58264E885A39}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DirectoryServices.ActiveDirectory</RootNamespace>
+    <AssemblyName>AD_shell_v1.14</AssemblyName>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>obj\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AD_icon7.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ADAMData.cs" />
+    <Compile Include="ArrayList.cs" />
+    <Compile Include="ExtendSchema.cs" />
+    <Compile Include="ReplicationData.cs" />
+    <Compile Include="ReplicationManagement.cs" />
+    <Compile Include="SchemaData.cs" />
+    <Compile Include="DomainControllerInfoDomainContext.cs" />
+    <Compile Include="GlobalCatalogInfoForestContext.cs" />
+    <Compile Include="ForestConfigData.cs" />
+    <Compile Include="DomainConfigData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TopologyData.cs" />
+    <Compile Include="TopologyManagement.cs" />
+    <Compile Include="TrustData.cs" />
+    <Compile Include="TrustManagement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.DirectoryServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AD_icon7.ico" />
+    <Content Include="obj\Debug\.txt" />
+    <Content Include="obj\Debug\AD_shell_v1.14.exe" />
+    <Content Include="obj\Debug\AD_shell_v1.14.pdb" />
+    <Content Include="obj\Debug\AD_shell_v1.14.TrustInfo.xml" />
+    <Content Include="obj\Debug\batch_cmds.txt" />
+    <Content Include="obj\Debug\Copy of DS.AD.TrustInfo.xml" />
+    <Content Include="obj\Debug\DirectoryServices.ActiveDirectory.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\DirectoryServices.ActiveDirectory.csproj.FileList.txt" />
+    <Content Include="obj\MSDN.Samples.DirectoryServices.ActiveDirectory.csproj.FileList.txt" />
+    <Content Include="obj\Release\DirectoryServices.ActiveDirectory.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\DS.AD.exe" />
+    <Content Include="obj\Release\DS.AD.pdb" />
+    <Content Include="obj\Release\DS.AD.TrustInfo.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\ad_shell.bat" />
+    <None Include="obj\Debug\AD_Subnets.csv" />
+    <None Include="obj\Debug\AD_Subnets3 - Copy.csv" />
+    <None Include="obj\Debug\AD_Subnets3.csv" />
+    <None Include="obj\Debug\ChangeNTPprovider.bat" />
+    <None Include="obj\Debug\ChangeNTPprovider_reset.bat" />
+    <None Include="obj\Debug\Copy of DS.AD.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Domestic_AD_AddSiteToLink.csv" />
+    <None Include="obj\Debug\Domestic_AD_SiteLinks.csv" />
+    <None Include="obj\Debug\Domestic_AD_SiteLinks_Deletion.csv" />
+    <None Include="obj\Debug\Domestic_AD_SiteLinks_Q.csv" />
+    <None Include="obj\Debug\Domestic_AD_SiteModDesc.csv" />
+    <None Include="obj\Debug\Domestic_AD_SLModifyDesc.csv" />
+    <None Include="obj\Debug\Domestic_AD_SLModifyDesc_Q.csv" />
+    <None Include="obj\Debug\Domestic_AD_SLModifyName.csv" />
+    <None Include="obj\Debug\AD_shell.exe.manifest" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\DS.AD.application" />
+    <None Include="obj\Release\DS.AD.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

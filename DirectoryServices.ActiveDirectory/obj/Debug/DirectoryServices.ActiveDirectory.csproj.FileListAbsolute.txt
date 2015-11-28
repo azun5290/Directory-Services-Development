@@ -1,0 +1,6 @@
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug\ResolveAssemblyReference.cache
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug\AD_shell_v1.14.TrustInfo.xml
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug\AD_shell_v1.14.exe.manifest
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug\AD_shell_v1.14.exe
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug\AD_shell_v1.14.pdb
+C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug\AD_shell_v1.14.application
