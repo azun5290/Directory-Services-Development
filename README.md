@@ -145,12 +145,15 @@ EDITING
 creation and modification of AD Sites & Services attributes
 
 public static void CreateSubnetPlus(string subNetName, string subNetLocation, string siteName, string siteDescription)
+
 public static void modifySubnetDescNoFor(string subNetName, string subnetDescription)
+
 public static void modifySubnetDesc(string targetForestName, string subNetName, string subnetDescription)
+
 public static void modifySubnetLoc(string targetForestName, string subNetName, string subnetLocation)
+
 ...abbreviated: modifySubnetLoc2, ModifySLName, ModifySLDesc, ModifySiteDesc
 
 REPORTING
 
 FindSubnet, FindSubnetByLoc, FindSiteLink, FindSiteLink2, FindSite, FindSite2
-
