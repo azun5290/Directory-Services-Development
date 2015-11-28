@@ -19,36 +19,29 @@ Some notes as as rationale:
 
 PATHS ATTEMPTED for subnet creation automation
 
-::::::::::::::::::::
-1.
-VBScript
+::::: 1. VBScript
 NOT FULLY WORKING - very cumbersome
 
-::::::::::::::::::::
-2.
-PowerShell
+::::: 2. PowerShell
 NOT FULLY WORKING 
 
 LOGs
 Using PowerShell ISE for editing
 DCPROMO of domain controller with W2K8 for PS scripting (unrestricted signing etc.), still not working Some issues with script signing, then still non full access after dcpromo and raise to ent admin level
 
-::::::::::::::::::::
-
-3.
-C# and batch CMDs
-OK
+:::: 3. C# and batch CMD --- OK ---
 
 Installation of VS2010 premium
-Using DirectoryServices classes inbuilt in the latest .Net Framework - will probably need to install latest .Net Framework/s on SYDHDCMS97-EUC
+Using DirectoryServices classes inbuilt in the latest .Net Framework - will probably need to install latest .Net Framework/s on test VM
 
-####################
+#####
 
 C# NOTES - last relevant to topology (sites,subnets,etc.):
 
 Inside main program entery for C# console apps, program.cs, added a createsubnet method which also takes a fourth argument (before description was not considered by parameter and created autoatically with string
-concatenation):
-Added method
+concatenation): 
+
+Added method:
 
 	case "createsubnetplus":
                try
@@ -62,21 +55,21 @@ Added method
                 break;
 
 
-Inside TopologyManagement.cs added new method
+Also added new method inside TopologyManagement.cs - method name:
 
 public static void CreateSubnetPlus(string subNetName, string subNetLocation, string siteName, string siteDescription)
 
 Inside this method description is not added with string concatenation of subNetLocation, subNetName and siteName:
 
- //de.Properties["description"].Value = subNetLocation + " (" + subNetName
-+ ") in " + siteName;
+ //de.Properties["description"].Value = subNetLocation + " (" + subNetName + ") in " + siteName;
 
-BUT it's now passed directly as an argument:
+BUT it's now passed directly as an argument, such as:
 
 de.Properties["description"].Value = siteDescription;
 
+method snippet:
 
-        public static void CreateSubnetPlus(string subNetName, string subNetLocation, string siteName, string siteDescription)
+public static void CreateSubnetPlus(string subNetName, string subNetLocation, string siteName, string siteDescription)
         {
             // create a new subnet wiht a description
             try
@@ -117,7 +110,7 @@ de.Properties["description"].Value = siteDescription;
 
             }
 
-####################
+#####
 
 Subnets are exported to csv then simply processed by c# program with a short shell CMD to process all tokens inside the csv file
 
