@@ -23,7 +23,7 @@ I am NOT a software developer so my code is potentially quite raw in certain are
 
 :::: DirectoryServices.ActiveDirectory ::::
 
-Directory services namespace, C# objects, methods and classes exist for public distribution on MSDN/Technet - amnyone can use them - it's just that normally not many people do. 
+Directory services namespace, C# objects, methods and classes exist for public distribution on MSDN/Technet - amnyone can use them - it's just that normally not many people do because scripting is much less painful.
 
 C# Directory Services project was quickly researched and executed while I was the AD technical Lead and senior systems engineer consulting for the main IT provider in Asia-Pacific region, during a project for a major Australian icon airline. 
 
@@ -52,8 +52,7 @@ Using DirectoryServices classes inbuilt in the latest .Net Framework - will prob
 
 C# NOTES - last relevant to topology (sites,subnets,etc.):
 
-Inside main program entery for C# console apps, program.cs, added a createsubnet method which also takes a fourth argument (before description was not considered by parameter and created autoatically with string
-concatenation): 
+Inside main program entery for C# console apps, program.cs, added a createsubnet method which also takes a fourth argument (before description was not considered by parameter and created automatically with string concatenation):
 
 Added method:
 
