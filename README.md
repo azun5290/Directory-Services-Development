@@ -7,17 +7,19 @@ Adding Directory Services C# project files
 
 Historical data
 
-A the end of 2012 during an extremely large infrastructure project I was involved with, a sudden need for large bulk Active Directory tasks arose. Timelines imperatives dictated that we find an immediate solution to the automation of bulk addition of hundreds of subnets and sites to AD sites and services, the subsequent, potential, bulk modification and/or deletion of the objects themselves from AD and or of only some of their attributes. And there was a constant need for reporting. 
+A the end of 2012 during an extremely large infrastructure project I was involved with, a sudden need for large bulk Active Directory tasks arose. Timelines imperatives dictated that we find an immediate solution to the automation of bulk addition of hundreds of subnets and sites to AD sites and services, the subsequent, potential, bulk modification and/or deletion of the objects themselves from AD and or of only some of their attributes. And there was a constant need for reporting, which is incredibly cumbersome in AD Sites and Services (both in the W2K3 and W2K8 server console versions).
 
 This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the unknown world of MS DS System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a fairly robust  manner. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-I have limited time so I'll add some notes I j
+I have limited time so I'll add some notes I jotted down at the time. Forgive the roughness.
 
-Branching...
+And a quick note:
 
-First addition is a C# project in the Directory Services area - I am NOT a software developer so my code is potentially quite raw in certain areas of the namespace/s, but as I am essentially an infrastructure/security engineer, it quite relentlessly always "does the job".
+I am NOT a software developer so my code is potentially quite raw in certain areas of the namespace/s, but as I am essentially an infrastructure/security engineer, it quite relentlessly always "does the job".
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::: DirectoryServices.ActiveDirectory ::::
 
