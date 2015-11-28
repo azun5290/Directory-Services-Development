@@ -9,7 +9,9 @@ First addition is a C# project in the Directory Services area - I am NOT a softw
 
 :::: DirectoryServices.ActiveDirectory ::::
 
-C# Directory Services project was quickly researched and executed as senior systems engineer for a major ariline, while  consulting for the main IT provider in Asia-Pacific region.
+Directory services namespace, C# objects, methods and classes exist for public distribution on MSDN/Technet - amnyone can use them - it's just that normally not many people do. 
+
+C# Directory Services project was quickly researched and executed while I was the AD technical Lead and senior systems engineer consulting for the main IT provider in Asia-Pacific region, during a project for a major Australian icon airline. 
 
 Some notes as as rationale:
 
