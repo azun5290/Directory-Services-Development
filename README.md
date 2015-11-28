@@ -123,9 +123,9 @@ CMD is:
 
 C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug>for /f "tokens=1,2,3,4 delims=," %a in (AD_Subnets3.csv) do AD_shell.exe createsubnetplus %a %b %c %d
 
-CSV files are prodcued from a DHCP report coming from Telstra
+CSV files are prodcued from a DHCP report coming from Telstra - main telecommunication provider in Australia
 
+I.e. following will run through all entries in csv file and search for them in 
 
-for /f "tokens=1,2 delims=," %a in (claude_subs2.csv) do AD_shell_v1.12.exe findsubnet %a %b
-
+for /f "tokens=1,2 delims=," %a in (Asia_subnets.csv) do AD_shell_v1.12.exe findsubnet %a %b
 
