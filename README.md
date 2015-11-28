@@ -1,7 +1,7 @@
 # az1
 aztest - just testing
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Adding Directory Services C# project files
 
@@ -11,7 +11,7 @@ A the end of 2012 during an extremely large infrastructure project I was involve
 
 This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the unknown world of MS DS System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a fairly robust  manner. 
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 I have limited time so I'll add some notes I jotted down at the time. Forgive the roughness.
 
@@ -131,9 +131,26 @@ CMD is:
 
 C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug>for /f "tokens=1,2,3,4 delims=," %a in (AD_Subnets3.csv) do AD_shell.exe createsubnetplus %a %b %c %d
 
-CSV files are prodcued from a DHCP report coming from Telstra - main telecommunication provider in Australia
+CSV files are produced from a DHCP report coming from Telstra - main telecommunication provider in Australia
 
-I.e. following will run through all entries in csv file and search for them in 
+I.e. following will run through all entries in csv file and search for them, returning the main attributes in the shell if subnets are found.
 
-for /f "tokens=1,2 delims=," %a in (Asia_subnets.csv) do AD_shell_v1.12.exe findsubnet %a %b
+for /f "tokens=1,2 delims=," %a in (SE_Asia_subnets.csv) do AD_shell_v1.12.exe findsubnet %a %b
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+NEW methods I created
+
+EDITING
+creation and modification of AD Sites & Services attributes
+
+public static void CreateSubnetPlus(string subNetName, string subNetLocation, string siteName, string siteDescription)
+public static void modifySubnetDescNoFor(string subNetName, string subnetDescription)
+public static void modifySubnetDesc(string targetForestName, string subNetName, string subnetDescription)
+public static void modifySubnetLoc(string targetForestName, string subNetName, string subnetLocation)
+...abbreviated: modifySubnetLoc2, ModifySLName, ModifySLDesc, ModifySiteDesc
+
+REPORTING
+
+FindSubnet, FindSubnetByLoc, FindSiteLink, FindSiteLink2, FindSite, FindSite2
 
