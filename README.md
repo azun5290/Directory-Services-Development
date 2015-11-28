@@ -9,7 +9,7 @@ Historical data
 
 A the end of 2012 during a large infrastructure project I was involved with, a sudden need for the automation of large bulk Active Directory tasks arose. Timelines imperatives dictated that we find an immediate solution to the automation of bulk addition of hundreds of subnets and sites to AD sites and services, the subsequent, potential, bulk modification and/or deletion of the objects themselves from AD and or of only some of their attributes. And there was a constant need for reporting, which is incredibly cumbersome in AD Sites and Services (both in the W2K3 and W2K8 server console versions).
 
-This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the unknown world of MS DS System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a fairly robust  manner. 
+This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the world of MS DS (Directory Services) System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a very robust manner for my purposes at the time. However, many functions are still quite buggy and like anything else, this can be massively improved and taken to brand new levels.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
