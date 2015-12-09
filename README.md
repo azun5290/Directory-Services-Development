@@ -1,23 +1,18 @@
-# az1
-aztest - just testing
+initial test
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Adding Directory Services C# project files
 
-Historical data
+Historical notes
 
-A the end of 2012 during a large infrastructure project I was involved with, a sudden need for the automation of large bulk Active Directory tasks arose. Timelines imperatives dictated that we find an immediate solution to the automation of bulk addition of hundreds of subnets and sites to AD sites and services, the subsequent, potential, bulk modification and/or deletion of the objects themselves from AD and or of only some of their attributes. And there was a constant need for reporting, which is incredibly cumbersome in AD Sites and Services (both in the W2K3 and W2K8 server console versions).
+The AD Directory Services C# consolle was started during a large infrastructure project I was involved with at the end of 2012, where there was a sudden need for the automation of a large number of Active Directory tasks, such as bulk addition of hundreds of subnets and sites to AD sites and services, and also potentially, the subsequent bulk modification and/or deletion of the objects themselves from AD, and/or modification and/or deletion of some of their attributes. The console proved quite handy also for reporting, which is incredibly cumbersome in AD Sites and Services (both in the W2K3 and W2K8 server console versions).
 
-This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the world of MS DS (Directory Services) System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a very robust manner for my purposes at the time. However, many functions are still quite buggy and like anything else, this can be massively improved and taken to brand new levels.
+This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the world of MS DS (Directory Services) System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a very robust manner for my purposes at the time. However, many functions are still quite buggy and like anything else, this can be massively improved and taken to brand new levels, especially becasue further infrastructure work caused the abrupt interruption of the AD shell development. It's kind of like a dead mining town. Started out, but abandoned now.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-I have limited time so I'll add some notes I jotted down at the time. Forgive the roughness.
-
-And a quick note:
-
-I am NOT a software developer so my code is potentially quite raw in certain areas of the namespace/s, but as I am essentially an infrastructure/security engineer, it quite relentlessly always "does the job".
+I have limited time so I'll add some notes I jotted down at the time. Forgive the roughness. A quick note: I am not a software developer, so my code is potentially quite raw in certain areas of the namespace/s, but as I am essentially an infrastructure/security engineer, it quite relentlessly always "does the job".
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
