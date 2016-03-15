@@ -1,1 +1,145 @@
-clup
+ history
+    1  ls
+    2  cd DirectoryServices.ActiveDirectory/
+    3  ls
+    4  ipconfig.e
+    5  ipconfig.exe
+    6  ipconfig.exe
+    7  cd DirectoryServices.ActiveDirectory/
+    8  ls
+    9  cd obj/
+   10  ls
+   11  cd Debug/
+   12  ls
+   13  git status
+   14  git push
+   15  git status
+   16  git commit -m "more cleanup"
+   17  git push
+   18  ls
+   19  cd..
+   20  cd..
+   21  cd..
+   22  cd /
+   23  cd..
+   24  ls
+   25  cd bin/
+   26  ls
+   27  cd DirectoryServices.ActiveDirectory/
+   28  cd /
+   29  pwd
+   30  whoami.exe
+   31  ls
+   32  cd mingw32/
+   33  ls
+   34  cd bin/
+   35  ls
+   36  antiword.exe
+   37  antiwor
+   38  antiword
+   39  bzmore
+   40  cd /
+   41  git status
+   42  LS
+   43  ls
+   44  ls -hl
+   45  ls -l
+   46  ls -h
+   47  history
+   48  history
+   49  git status
+   50  ls
+   51  ls DirectoryServices.ActiveDirectory/
+   52  ls -lh DirectoryServices.ActiveDirectory/
+   53  hostname
+   54  exit
+   55  ls
+   56  dir
+   57  pwd
+   58  explorer $pwd
+   59  ls -hl
+   60  ls -a
+   61  ver
+   62  help
+   63  uname.exe
+   64  printf ciao
+   65  git
+   66  git --version
+   67  git --global
+   68  git
+   69  clear.exe
+   70  git
+   71  git grep c
+   72  git grep .cs
+   73  ls -a
+   74  ls -hl
+   75  git
+   76  ls -hl /bin/
+   77  ls -hl
+   78  ls -hl DirectoryServices.ActiveDirectory/bin/
+   79  clear
+   80  git init
+   81  git status
+   82  git status
+   83  git status
+   84  git add test.txt
+   85  pwd
+   86  cd DirectoryServices.ActiveDirectory/
+   87  pwd
+   88  git add test.txt
+   89  git status
+   90  git status
+   91  git add test.txt
+   92  git status
+   93  git commit
+   94  git status
+   95  git push
+   96  git pull
+   97  git status
+   98  git push
+   99  git status
+  100  vim
+  101  ls test.txt
+  102  vim test.txt
+  103  git status
+  104  echo 'fuffa' >> test.txt
+  105  vim test.txt
+  106  history | vim test.txt
+  107  vim test.txt
+  108  git status
+  109  ls -hl
+  110  ls -a
+  111  vim test.txt.swp
+  112  vim test.txt
+  113  vim -r test.txt
+  114  vim test.txt
+  115  history
+  116  history | grep 1
+  117  history
+  118  vim test.txt
+  119  vim test.txt
+  120  ls test.txt
+  121  ls tes*
+  122  rm test.txt
+  123  vim test.txt
+  124  vim test.txt
+  125  vim test.txt
+  126  nano
+  127  git remote
+  128  git remote -v
+  129  git fetch origin
+  130  git pull origin
+  131  ls
+  132  cd..
+  133  ls
+  134  pwd
+  135  cd..
+  136  pwd
+  137  cd /c/code/C#/az1/
+  138  pwd
+  139  ls
+  140  git status
+  141  git pull
+  142  git status
+  143  history
+
