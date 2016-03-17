@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     ReplicationData.cs
 
-  Summary:  Demonstrates replication related classes and methods
+  Summary:  Section for replication related classes and methods
 =====================================================================
                         ** SAMPLE CODE **
  */

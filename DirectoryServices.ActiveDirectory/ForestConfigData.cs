@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     ForestConfigData.cs
 
-  Summary:  Demonstrates retrieving information about the current
+  Summary:  Section for retrieving information about the current
             forest using the Forest class and the 
             GetCurrentForest method   
 ---------------------------------------------------------------------

@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     ReplicationManagement.cs
 
-  Summary:  Demonstrates replication management related classes and 
+  Summary:  Section for replication management related classes and 
             methods.
 =====================================================================
                          ** SAMPLE CODE **

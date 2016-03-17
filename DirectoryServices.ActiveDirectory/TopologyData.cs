@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     TopologyData.cs
 
-  Summary:  Demonstrates retrieving information about Active Directory  
+  Summary:  Section for retrieving information about Active Directory  
             topology components - sitelinks, sitelink bridges, sites, 
             adjacent sites, domains, servers, subnets and 
             bridgehead servers.

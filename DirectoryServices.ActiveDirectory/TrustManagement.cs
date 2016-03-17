@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     TrustManagement.cs
 
-  Summary:  Demonstrates cross forest trust management tasks
+  Summary:  Section for cross forest trust management tasks
 
 =====================================================================
                          ** SAMPLE CODE **

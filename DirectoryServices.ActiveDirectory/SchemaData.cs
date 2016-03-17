@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     SchemaData.cs
 
-  Summary:  Demonstrates how to retrieve information about 
+  Summary:  Section for how to retrieve information about 
             an AD schema. The first method displays information about
             the entire schema. The second method displays information about
             a single class in the schema. The third method displays information

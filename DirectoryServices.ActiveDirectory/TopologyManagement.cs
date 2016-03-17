@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     TopologyManagement.cs
 
-  Summary:  Demonstrates managing directory topology objects including
+  Summary:  Section for managing directory topology objects including
             sites, subnets, bridgeheads and sitelinks.
 =====================================================================
                        

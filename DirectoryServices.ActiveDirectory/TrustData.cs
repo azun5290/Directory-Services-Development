@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     TrustData.cs
 
-  Summary: Demonstrates retrieving trust data from AD using the
+  Summary: Section for retrieving trust data from AD using the
            System.DirectoryServices.ActiveDirectory classes
            
 =====================================================================
@@ -132,7 +132,7 @@ namespace MSDN.Samples.DirectoryServices.ActiveDirectory
         }
 
 
-        //Demonstrates how to retrieve all trust relationships with the current domain
+        //Section for how to retrieve all trust relationships with the current domain
         public static void GetCurrentDomainTrusts()
         {
             try

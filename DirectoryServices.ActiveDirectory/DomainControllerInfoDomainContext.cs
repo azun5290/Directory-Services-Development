@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     DomainControllerInfoDomainContext.cs
 
-  Summary:  Demonstrates finding and returning information about a dc 
+  Summary:  Section for finding and returning information about a dc 
             in an Active Directory domain by using variations of the
             FineOne method.
 ---------------------------------------------------------------------

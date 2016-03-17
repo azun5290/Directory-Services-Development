@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     DomainConfigData.cs
 
-  Summary:  Demonstrates retrieving information about the current
+  Summary:  Section for retrieving information about the current
             domain using the Domain class and the GetCurrentDomain
             method.
 ---------------------------------------------------------------------

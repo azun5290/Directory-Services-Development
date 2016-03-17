@@ -1,7 +1,7 @@
 /*=====================================================================
   File:     GlobalCatalogInfoForextContext.cs
 
-  Summary:  Demonstrates finding and returning information about a global 
+  Summary:  Section for finding and returning information about a global 
             catalog server in an Active Directory forest.
 
 ---------------------------------------------------------------------
