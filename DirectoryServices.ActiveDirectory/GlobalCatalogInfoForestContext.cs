@@ -5,7 +5,7 @@
             catalog server in an Active Directory forest.
 
 ---------------------------------------------------------------------
-                        ** SAMPLE CODE **
+                        **                         **
 */
 
 using System;

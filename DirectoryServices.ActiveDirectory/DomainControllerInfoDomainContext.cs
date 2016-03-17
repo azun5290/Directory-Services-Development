@@ -5,7 +5,7 @@
             in an Active Directory domain by using variations of the
             FineOne method.
 ---------------------------------------------------------------------
-                        ** SAMPLE CODE **
+                        **                         **
 */
 
 using System;

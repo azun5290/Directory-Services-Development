@@ -4,7 +4,7 @@
   Summary:  Section for replication management related classes and 
             methods.
 =====================================================================
-                         ** SAMPLE CODE **
+                         **                         **
 */
 
 using System;

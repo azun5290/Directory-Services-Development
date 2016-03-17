@@ -4,7 +4,7 @@
   Summary:  Section for cross forest trust management tasks
 
 =====================================================================
-                         ** SAMPLE CODE **
+                         **                         **
 */
 
 using System;

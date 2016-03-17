@@ -4,7 +4,7 @@
   Summary:  Section for extending an ADAM instance schema and an AD 
   schema by adding an attribute and class schema object.
 ---------------------------------------------------------------------
-                         ** SAMPLE CODE **
+                         **                         **
 */
 
 using System;

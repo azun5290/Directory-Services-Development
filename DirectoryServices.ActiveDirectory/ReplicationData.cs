@@ -3,7 +3,7 @@
 
   Summary:  Section for replication related classes and methods
 =====================================================================
-                        ** SAMPLE CODE **
+                        **                         **
  */
 
 using System;

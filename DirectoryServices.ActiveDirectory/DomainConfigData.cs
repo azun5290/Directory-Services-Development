@@ -5,7 +5,7 @@
             domain using the Domain class and the GetCurrentDomain
             method.
 ---------------------------------------------------------------------
-                        ** SAMPLE CODE **
+                        **                         **
 */
 
 using System;

@@ -8,7 +8,7 @@
             about a single property (attribute) in the schema.
 
 ---------------------------------------------------------------------
-                        ** SAMPLE CODE **
+                        **                         **
 */
 
 using System;

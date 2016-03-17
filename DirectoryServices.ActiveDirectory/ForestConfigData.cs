@@ -5,7 +5,7 @@
             forest using the Forest class and the 
             GetCurrentForest method   
 ---------------------------------------------------------------------
-                        ** SAMPLE CODE **
+                        **                         **
 */
 
 using System;

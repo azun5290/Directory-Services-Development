@@ -5,7 +5,7 @@
            System.DirectoryServices.ActiveDirectory classes
            
 =====================================================================
-                         ** SAMPLE CODE **
+                         **                         **
 */
 
 using System;
