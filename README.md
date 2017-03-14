@@ -1,12 +1,10 @@
-initial test
-
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Adding Directory Services C# project files
 
 Historical notes
 
-The AD Directory Services C# consolle was started during a large infrastructure project back in 2012
+The AD Directory Services C# console was started during a large infrastructure project back in 2012
 
 It played a part in automating some Active Directory tasks, mainly in AD sites and services, bulk modifications, creations, deletions of AD objects or some of their attributes. The console can also be used for reporting, which at the time was somewhat cumbersome in its builtin form (W2K3 and W2K8 server console)
 
