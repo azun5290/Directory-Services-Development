@@ -6,46 +6,13 @@ Adding Directory Services C# project files
 
 Historical notes
 
-The AD Directory Services C# consolle was started during a large infrastructure project I was involved with at the end of 2012, where there was a sudden need for the automation of a large number of Active Directory tasks, such as bulk addition of hundreds of subnets and sites to AD sites and services, and also potentially, the subsequent bulk modification and/or deletion of the objects themselves from AD, and/or modification and/or deletion of some of their attributes. The console proved quite handy also for reporting, which is incredibly cumbersome in AD Sites and Services (both in the W2K3 and W2K8 server console versions).
+The AD Directory Services C# consolle was started during a large infrastructure project back in 2012
 
-This had to be accomplished very quickly. At that time, unlike now, there were no PowerShell scripts for this set of tasks readily available online. VB was too cumbersome for AD sites and services. My response was a three week foray into the world of MS DS (Directory Services) System.DirectoryServices.ActiveDirectory Namespace. As a result, I produced an AD console tool which achieved this in a very robust manner for my purposes at the time. However, many functions are still quite buggy and like anything else, this can be massively improved and taken to brand new levels.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-I have limited time so I'll add some notes I jotted down at the time. Forgive the roughness. A quick note: I am not a software developer, so my code is potentially quite raw in certain areas of the namespace/s, but as I am essentially an infrastructure/security engineer, it quite relentlessly always "does the job".
+It played a part in automating some Active Directory tasks, mainly in AD sites and services, bulk modifications, creations, deletions of AD objects or some of their attributes. The console can also be used for reporting, which at the time was somewhat cumbersome in its builtin form (W2K3 and W2K8 server console)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::: DirectoryServices.ActiveDirectory ::::
-
-Directory services namespace, C# objects, methods and classes exist for public distribution on MSDN/Technet - anyone can use them - it's just that normally not many people do because scripting is much less painful.
-
-C# Directory Services project was quickly researched and executed while I was the AD technical Lead and senior systems engineer consulting for the main IT provider in Asia-Pacific region, during a project for a major Australian icon airline. 
-
-Some notes as as rationale:
-
-:::: DS C# Notes ::::
-
-PATHS ATTEMPTED for subnet creation automation
-
-::::: 1. VBScript
-NOT FULLY WORKING - very cumbersome
-
-::::: 2. PowerShell
-NOT FULLY WORKING 
-
-LOGs
-Using PowerShell ISE for editing
-DCPROMO of domain controller with W2K8 for PS scripting (unrestricted signing etc.), still not working Some issues with script signing, then still non full access after dcpromo and raise to ent admin level
-
-:::: 3. C# and batch CMD --- OK ---
-
-Installation of VS2010 premium
-Using DirectoryServices classes inbuilt in the latest .Net Framework - will probably need to install latest .Net Framework/s on test VM
-
-#####
-
-C# NOTES - last relevant to topology (sites,subnets,etc.):
+C# NOTES only about AD topology management (AD sites, subnets,etc.):
 
 Inside main program entery for C# console apps, program.cs, added a createsubnet method which also takes a fourth argument (before description was not considered by parameter and created automatically with string concatenation):
 
@@ -76,6 +43,7 @@ BUT it's now passed directly as an argument, such as:
 de.Properties["description"].Value = siteDescription;
 
 method snippet:
+
 
 public static void CreateSubnetPlus(string subNetName, string subNetLocation, string siteName, string siteDescription)
         {
@@ -118,15 +86,14 @@ public static void CreateSubnetPlus(string subNetName, string subNetLocation, st
 
             }
 
-#####
+
+
 
 Subnets are exported to csv then simply processed by c# program with a short shell CMD to process all tokens inside the csv file
 
 CMD is:  
 
 C:\code\C#\DirectoryServices.ActiveDirectory\obj\Debug>for /f "tokens=1,2,3,4 delims=," %a in (AD_Subnets3.csv) do AD_shell.exe createsubnetplus %a %b %c %d
-
-CSV files are produced from a DHCP report coming from Telstra - main telecommunication provider in Australia
 
 I.e. following will run through all entries in csv file and search for them, returning the main attributes in the shell if subnets are found.
 
